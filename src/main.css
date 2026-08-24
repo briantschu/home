@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-darker: #282a36;
+    --color-dark: #44475a;
+    --color-purple: #bd93f9;
+}
+
+html {
+    @apply text-white;
+    @apply p-10;
+    @apply md:p-20;
+    @apply text-base;
+    @apply max-w-full;
+    @apply md:max-w-4xl;
+    @apply mx-auto;
+}
+
+h1 {
+    @apply text-4xl;
+    @apply font-extrabold;
+    @apply py-5;
+}
+
+section {
+
+    :not(:last-child) {
+        @apply mb-4;
+    }
+
+    p {
+        @apply mb-4;
+        @apply leading-relaxed;
+    }
+}
