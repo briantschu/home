@@ -1,13 +1,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  // Top-level configuration
-  "name": "briantschu-com",
+  "name": "home",
   "compatibility_date": "2026-08-24",
-  "workers_dev": false,
-  "route": {
-    "pattern": "briantschu.com/*",
-    "zone_name": "briantschu.com"
-  },
   "assets": {
     "directory": "./public"
   }
